@@ -69,6 +69,19 @@ export default function Contact({ onOpenEnquiry }) {
                 </div>
 
                 <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-full bg-[#181b26] border border-[#c5a059] flex items-center justify-center text-[#dfb76c] shrink-0">
+                    <Mail className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h4 className="text-xs uppercase tracking-wider font-semibold text-[#a39e93]">Email Address</h4>
+                    <a href="mailto:antiquesuper8319@gmail.com" className="text-[#e8e2d5] hover:text-[#dfb76c] font-medium block mt-1 transition-colors">
+                      antiquesuper8319@gmail.com
+                    </a>
+                    <p className="text-xs text-[#a39e93] mt-0.5">Direct numismatic evaluation inbox</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-[#181b26] border border-[#c5a059] flex items-center justify-center text-[#25D366] shrink-0">
                     <MessageCircle className="w-5 h-5 fill-current" />
                   </div>
@@ -111,7 +124,7 @@ export default function Contact({ onOpenEnquiry }) {
           <div className="lg:col-span-2 glass-card p-8 rounded-lg border border-[#c5a059]/40">
             <h3 className="text-2xl font-serif font-bold text-white mb-2">Send an Online Enquiry</h3>
             <p className="text-xs text-[#a39e93] mb-6">
-              Fill out the form below to request an item valuation or general numismatic inquiry.
+              Fill out the form below or email us directly at <strong className="text-[#dfb76c]">antiquesuper8319@gmail.com</strong>.
             </p>
 
             {submitted ? (
@@ -119,7 +132,7 @@ export default function Contact({ onOpenEnquiry }) {
                 <CheckCircle2 className="w-14 h-14 text-emerald-400 mx-auto mb-4" />
                 <h4 className="text-2xl font-serif text-white mb-2">Enquiry Sent Successfully</h4>
                 <p className="text-sm text-[#a39e93] max-w-md mx-auto mb-6">
-                  Our team in Indore will review your message and contact you at <strong className="text-[#dfb76c]">{formData.phone}</strong>.
+                  Our team in Indore will review your message and contact you back.
                 </p>
                 <button onClick={() => setSubmitted(false)} className="btn-gold">
                   SEND ANOTHER MESSAGE

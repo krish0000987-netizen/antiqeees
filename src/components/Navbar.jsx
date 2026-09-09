@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, ShieldCheck, ChevronRight, FileText } from 'lucide-react';
+import { Menu, X, Phone, ShieldCheck, ChevronRight, FileText, Mail } from 'lucide-react';
 import Logo from './Logo';
 
 export default function Navbar({ onOpenEnquiry }) {
@@ -20,12 +20,10 @@ export default function Navbar({ onOpenEnquiry }) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close mobile menu on page navigation
   useEffect(() => {
     setMobileMenuOpen(false);
   }, [location]);
 
-  // Lock body scroll when mobile menu is open
   useEffect(() => {
     if (mobileMenuOpen) {
       document.body.style.overflow = 'hidden';
@@ -57,7 +55,9 @@ export default function Navbar({ onOpenEnquiry }) {
             <span className="truncate max-w-[280px] sm:max-w-none">Indore’s Premier Heritage Vault & Coin Numismatic Gallery</span>
           </div>
           <div className="flex items-center gap-3 text-[10px] sm:text-[11px]">
-            <span className="hidden sm:inline">Indore, MP - 452003</span>
+            <a href="mailto:antiquesuper8319@gmail.com" className="text-[#a39e93] hover:text-[#dfb76c] flex items-center gap-1">
+              <Mail className="w-3 h-3 text-[#c5a059]" /> antiquesuper8319@gmail.com
+            </a>
             <span className="text-[#c5a059] hidden sm:inline">•</span>
             <a href="tel:+919826035259" className="text-[#dfb76c] hover:underline flex items-center gap-1 font-semibold">
               <Phone className="w-3 h-3" /> +91 98260 35259
@@ -133,7 +133,6 @@ export default function Navbar({ onOpenEnquiry }) {
       {/* Mobile Drawer Overlay */}
       {mobileMenuOpen && (
         <div className="fixed inset-0 z-50 lg:hidden bg-[#090a0f] flex flex-col h-screen w-screen overflow-hidden animate-fade-in-up">
-          {/* Mobile Drawer Header */}
           <div className="flex items-center justify-between p-4 border-b border-[#c5a059]/30 bg-[#07080b] shrink-0">
             <Logo />
             <button
@@ -145,7 +144,6 @@ export default function Navbar({ onOpenEnquiry }) {
             </button>
           </div>
 
-          {/* Mobile Nav Scrollable List */}
           <div className="flex-1 overflow-y-auto px-5 py-6 flex flex-col justify-between">
             <div className="space-y-1">
               <span className="text-[10px] uppercase tracking-widest text-[#c5a059] font-bold px-2 block mb-3">
@@ -170,8 +168,13 @@ export default function Navbar({ onOpenEnquiry }) {
               ))}
             </div>
 
-            {/* Mobile Footer CTAs */}
-            <div className="mt-8 pt-6 border-t border-[#181b26] flex flex-col gap-3 shrink-0">
+            <div className="mt-8 pt-6 border-t border-[#181b26] flex flex-col gap-2.5 shrink-0">
+              <a
+                href="mailto:antiquesuper8319@gmail.com"
+                className="flex items-center justify-center gap-2 py-2.5 px-4 rounded border border-[#c5a059]/30 text-[#a39e93] text-xs bg-[#12141d]"
+              >
+                <Mail className="w-3.5 h-3.5 text-[#c5a059]" /> antiquesuper8319@gmail.com
+              </a>
               <a
                 href="tel:+919826035259"
                 className="flex items-center justify-center gap-2 py-3 px-4 rounded border border-[#c5a059] text-[#dfb76c] font-semibold text-xs tracking-wider uppercase bg-[#12141d]"

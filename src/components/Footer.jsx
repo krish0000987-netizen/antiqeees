@@ -107,6 +107,12 @@ export default function Footer() {
                   +91 98260 35259
                 </a>
               </p>
+              <p className="flex items-center gap-2.5">
+                <Mail className="w-4 h-4 text-[#c5a059] shrink-0" />
+                <a href="mailto:antiquesuper8319@gmail.com" className="text-[#e8e2d5] hover:text-[#dfb76c] transition-colors font-medium">
+                  antiquesuper8319@gmail.com
+                </a>
+              </p>
               <div className="pt-2 p-3 bg-[#12141d] rounded border border-[#c5a059]/20 text-[11px]">
                 <p className="text-white font-semibold mb-1">Valuation Notice:</p>
                 <p className="text-[#a39e93]">
