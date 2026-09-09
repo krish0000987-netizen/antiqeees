@@ -90,7 +90,7 @@ export default function EnquiryModal({ isOpen, onClose }) {
               </div>
               <h4 className="text-2xl sm:text-3xl font-serif text-white mb-2">Enquiry Received</h4>
               <p className="text-[#a39e93] max-w-md mx-auto mb-6 text-xs sm:text-sm leading-relaxed">
-                Thank you, <strong className="text-white">{formData.name}</strong>. Our evaluation team in Indore will review your item details and call back at <strong className="text-[#dfb76c]">{formData.phone}</strong> promptly.
+                Thank you, <strong className="text-white">{formData.name}</strong>. Our evaluation team in Indore will review your item details and reach back out promptly.
               </p>
               <button onClick={resetForm} className="btn-gold w-full sm:w-auto justify-center">
                 CLOSE WINDOW
@@ -124,7 +124,7 @@ export default function EnquiryModal({ isOpen, onClose }) {
                     required
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="+91 98260 35259"
+                    placeholder="Your contact number"
                     className="w-full bg-[#181b26] border border-[#c5a059]/30 rounded px-3 py-2 text-white text-xs sm:text-sm focus:outline-none focus:border-[#dfb76c]"
                   />
                 </div>

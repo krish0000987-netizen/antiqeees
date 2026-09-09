@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, MessageCircle, MapPin, Mail, Upload, CheckCircle2, ShieldCheck, Clock } from 'lucide-react';
+import { MessageCircle, MapPin, Mail, Upload, CheckCircle2 } from 'lucide-react';
 
 export default function Contact({ onOpenEnquiry }) {
   const [formData, setFormData] = useState({
@@ -52,19 +52,6 @@ export default function Contact({ onOpenEnquiry }) {
                   <div>
                     <h4 className="text-xs uppercase tracking-wider font-semibold text-[#a39e93]">Location</h4>
                     <p className="text-white font-medium mt-1">Indore, Madhya Pradesh – 452003, India</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-full bg-[#181b26] border border-[#c5a059] flex items-center justify-center text-[#dfb76c] shrink-0">
-                    <Phone className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <h4 className="text-xs uppercase tracking-wider font-semibold text-[#a39e93]">Phone Line</h4>
-                    <a href="tel:+919826035259" className="text-[#dfb76c] font-bold text-base hover:underline block mt-1">
-                      +91 98260 35259
-                    </a>
-                    <p className="text-xs text-[#a39e93] mt-0.5">Available Mon – Sat (10:00 AM – 7:30 PM)</p>
                   </div>
                 </div>
 
@@ -160,7 +147,7 @@ export default function Contact({ onOpenEnquiry }) {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="+91 98260 35259"
+                      placeholder="Your mobile contact"
                       className="w-full bg-[#181b26] border border-[#c5a059]/30 rounded px-3.5 py-2.5 text-white text-sm focus:outline-none focus:border-[#dfb76c]"
                     />
                   </div>

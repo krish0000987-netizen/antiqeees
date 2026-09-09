@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ShoppingBag, Tag, Search, Compass, Shield, Phone, ArrowRight } from 'lucide-react';
+import { Tag, Search, Compass, Shield, Mail, ArrowRight } from 'lucide-react';
 
 export default function AntiqueBuySell({ onOpenEnquiry }) {
   const services = [
@@ -127,11 +127,11 @@ export default function AntiqueBuySell({ onOpenEnquiry }) {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-4xl font-serif font-bold text-white mb-4">Have Questions About Buying or Selling?</h2>
           <p className="text-sm text-[#a39e93] mb-8">
-            Call our Indore gallery directly at +91 98260 35259 or request an online callback.
+            Email our Indore gallery team at antiquesuper8319@gmail.com or submit an online request.
           </p>
           <div className="flex justify-center gap-4">
-            <a href="tel:+919826035259" className="btn-gold py-3.5 px-8">
-              <Phone className="w-4 h-4" /> CALL +91 98260 35259
+            <a href="mailto:antiquesuper8319@gmail.com" className="btn-gold py-3.5 px-8">
+              <Mail className="w-4 h-4" /> EMAIL US NOW
             </a>
             <button onClick={onOpenEnquiry} className="btn-outline-gold py-3.5 px-8">
               REQUEST CONSULTATION

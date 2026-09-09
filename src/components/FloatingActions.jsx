@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, MessageCircle, FileText, X } from 'lucide-react';
+import { MessageCircle, FileText, X, Mail } from 'lucide-react';
 
 export default function FloatingActions({ onOpenEnquiry }) {
   const [expanded, setExpanded] = useState(false);
@@ -9,15 +9,15 @@ export default function FloatingActions({ onOpenEnquiry }) {
       {/* Floating Buttons Menu */}
       {expanded && (
         <div className="flex flex-col items-end gap-2 animate-fade-in-up">
-          {/* Call Button */}
+          {/* Email Button */}
           <a
-            href="tel:+919826035259"
+            href="mailto:antiquesuper8319@gmail.com"
             className="flex items-center gap-2 px-3.5 py-2 rounded-full bg-[#181b26] text-white border border-[#c5a059]/40 shadow-2xl transition-transform active:scale-95"
-            title="Call +91 98260 35259"
+            title="Email us"
           >
-            <span className="text-[11px] font-semibold tracking-wide">Call +91 98260 35259</span>
-            <div className="w-7 h-7 rounded-full bg-emerald-600 flex items-center justify-center text-white shrink-0">
-              <Phone className="w-3.5 h-3.5" />
+            <span className="text-[11px] font-semibold tracking-wide">antiquesuper8319@gmail.com</span>
+            <div className="w-7 h-7 rounded-full bg-[#c5a059] flex items-center justify-center text-black shrink-0 font-bold">
+              <Mail className="w-3.5 h-3.5" />
             </div>
           </a>
 

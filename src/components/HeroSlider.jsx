@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, ChevronLeft, ChevronRight, Sparkles, ArrowRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Sparkles, ArrowRight, Mail } from 'lucide-react';
 
 export default function HeroSlider({ onOpenEnquiry }) {
   const slides = [
@@ -115,10 +115,10 @@ export default function HeroSlider({ onOpenEnquiry }) {
           </Link>
 
           <a
-            href="tel:+919826035259"
+            href="mailto:antiquesuper8319@gmail.com"
             className="w-full sm:w-auto justify-center flex items-center gap-2 px-5 py-3 rounded text-xs sm:text-sm font-semibold text-white bg-white/10 hover:bg-white/20 border border-white/20 backdrop-blur-md transition-all"
           >
-            <Phone className="w-3.5 h-3.5 text-[#dfb76c]" /> CALL +91 98260 35259
+            <Mail className="w-3.5 h-3.5 text-[#dfb76c]" /> EMAIL US
           </a>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, MessageCircle, Upload, CheckCircle2, ShieldCheck, AlertCircle, FileText } from 'lucide-react';
+import { MessageCircle, Upload, CheckCircle2, AlertCircle, Mail } from 'lucide-react';
 
 export default function BuyCoins({ onOpenEnquiry }) {
   const [formData, setFormData] = useState({
@@ -33,8 +33,8 @@ export default function BuyCoins({ onOpenEnquiry }) {
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a href="tel:+919826035259" className="btn-gold py-3.5 px-8">
-              <Phone className="w-4 h-4" /> CALL +91 98260 35259
+            <a href="mailto:antiquesuper8319@gmail.com" className="btn-gold py-3.5 px-8">
+              <Mail className="w-4 h-4" /> EMAIL US
             </a>
             <a
               href="https://wa.me/919826035259?text=Hello%20Antique%20Super%20Antique,%20I%20want%20to%20evaluate/sell%20my%20old%20coins."
@@ -63,7 +63,7 @@ export default function BuyCoins({ onOpenEnquiry }) {
             <span className="text-4xl font-serif font-bold text-[#c5a059] block mb-2">01</span>
             <h3 className="text-xl font-serif font-bold text-white mb-2">Share Details</h3>
             <p className="text-xs text-[#a39e93] leading-relaxed">
-              Contact us and provide information about your coin, including clear photos of both front and reverse sides.
+              Contact us via email or form with information about your coin, including clear photos of both front and reverse sides.
             </p>
           </div>
 
@@ -109,7 +109,7 @@ export default function BuyCoins({ onOpenEnquiry }) {
                 <CheckCircle2 className="w-12 h-12 text-emerald-400 mx-auto mb-4" />
                 <h3 className="text-2xl font-serif text-white mb-2">Submission Complete</h3>
                 <p className="text-sm text-[#a39e93] mb-6">
-                  Thank you! Our numismatic team will analyze your coin photos and call you back shortly.
+                  Thank you! Our numismatic team will analyze your coin photos and reply promptly.
                 </p>
                 <button onClick={() => setSubmitted(false)} className="btn-gold">
                   SUBMIT ANOTHER ITEM
@@ -130,14 +130,14 @@ export default function BuyCoins({ onOpenEnquiry }) {
                     />
                   </div>
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#a39e93] mb-1 font-semibold">Phone Number *</label>
+                    <label className="block text-xs uppercase tracking-wider text-[#a39e93] mb-1 font-semibold">Contact Mobile *</label>
                     <input
                       type="tel"
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full bg-[#181b26] border border-[#c5a059]/30 rounded px-3.5 py-2.5 text-white text-sm"
-                      placeholder="+91 98260 35259"
+                      placeholder="Your mobile number"
                     />
                   </div>
                 </div>

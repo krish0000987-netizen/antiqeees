@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, ShieldCheck, ChevronRight, FileText, Mail } from 'lucide-react';
+import { Menu, X, ShieldCheck, ChevronRight, FileText, Mail } from 'lucide-react';
 import Logo from './Logo';
 
 export default function Navbar({ onOpenEnquiry }) {
@@ -55,12 +55,10 @@ export default function Navbar({ onOpenEnquiry }) {
             <span className="truncate max-w-[280px] sm:max-w-none">Indore’s Premier Heritage Vault & Coin Numismatic Gallery</span>
           </div>
           <div className="flex items-center gap-3 text-[10px] sm:text-[11px]">
-            <a href="mailto:antiquesuper8319@gmail.com" className="text-[#a39e93] hover:text-[#dfb76c] flex items-center gap-1">
-              <Mail className="w-3 h-3 text-[#c5a059]" /> antiquesuper8319@gmail.com
-            </a>
+            <span className="hidden sm:inline">Indore, MP - 452003</span>
             <span className="text-[#c5a059] hidden sm:inline">•</span>
-            <a href="tel:+919826035259" className="text-[#dfb76c] hover:underline flex items-center gap-1 font-semibold">
-              <Phone className="w-3 h-3" /> +91 98260 35259
+            <a href="mailto:antiquesuper8319@gmail.com" className="text-[#dfb76c] hover:underline flex items-center gap-1 font-semibold">
+              <Mail className="w-3 h-3 text-[#c5a059]" /> antiquesuper8319@gmail.com
             </a>
           </div>
         </div>
@@ -171,15 +169,9 @@ export default function Navbar({ onOpenEnquiry }) {
             <div className="mt-8 pt-6 border-t border-[#181b26] flex flex-col gap-2.5 shrink-0">
               <a
                 href="mailto:antiquesuper8319@gmail.com"
-                className="flex items-center justify-center gap-2 py-2.5 px-4 rounded border border-[#c5a059]/30 text-[#a39e93] text-xs bg-[#12141d]"
+                className="flex items-center justify-center gap-2 py-3 px-4 rounded border border-[#c5a059]/30 text-[#dfb76c] text-xs font-semibold bg-[#12141d]"
               >
-                <Mail className="w-3.5 h-3.5 text-[#c5a059]" /> antiquesuper8319@gmail.com
-              </a>
-              <a
-                href="tel:+919826035259"
-                className="flex items-center justify-center gap-2 py-3 px-4 rounded border border-[#c5a059] text-[#dfb76c] font-semibold text-xs tracking-wider uppercase bg-[#12141d]"
-              >
-                <Phone className="w-4 h-4" /> CALL +91 98260 35259
+                <Mail className="w-4 h-4 text-[#c5a059]" /> antiquesuper8319@gmail.com
               </a>
               <button
                 onClick={() => {

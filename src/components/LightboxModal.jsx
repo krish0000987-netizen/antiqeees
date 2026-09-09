@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, ExternalLink, Calendar, MapPin, Tag, ShieldCheck } from 'lucide-react';
+import { X, Calendar } from 'lucide-react';
 
 export default function LightboxModal({ item, onClose, onEnquire }) {
   if (!item) return null;
@@ -82,7 +82,7 @@ export default function LightboxModal({ item, onClose, onEnquire }) {
               ENQUIRE ABOUT THIS PIECE
             </button>
             <p className="text-[11px] text-[#a39e93] text-center">
-              Call +91 98260 35259 or submit an online request for acquisition details.
+              Submit an online enquiry or email antiquesuper8319@gmail.com for acquisition details.
             </p>
           </div>
         </div>

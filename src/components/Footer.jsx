@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Mail, Shield, ArrowUpRight } from 'lucide-react';
+import { MapPin, Mail, Shield, ArrowUpRight } from 'lucide-react';
 import Logo from './Logo';
 
 export default function Footer() {
@@ -100,12 +100,6 @@ export default function Footer() {
               <p className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#c5a059] shrink-0 mt-0.5" />
                 <span>Indore, Madhya Pradesh – 452003, India</span>
-              </p>
-              <p className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-[#c5a059] shrink-0" />
-                <a href="tel:+919826035259" className="text-[#dfb76c] hover:underline font-semibold">
-                  +91 98260 35259
-                </a>
               </p>
               <p className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#c5a059] shrink-0" />

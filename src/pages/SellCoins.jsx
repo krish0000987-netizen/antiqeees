@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { AlertTriangle, CheckCircle2, XCircle, Phone, ArrowRight, ShieldCheck, HelpCircle } from 'lucide-react';
+import React from 'react';
+import { AlertTriangle, CheckCircle2, XCircle, Mail } from 'lucide-react';
 
 export default function SellCoins({ onOpenEnquiry }) {
   const sellerTips = [
@@ -43,8 +43,8 @@ export default function SellCoins({ onOpenEnquiry }) {
             <button onClick={onOpenEnquiry} className="btn-gold py-3.5 px-8">
               START AN ENQUIRY
             </button>
-            <a href="tel:+919826035259" className="btn-outline-gold py-3.5 px-8">
-              <Phone className="w-4 h-4 text-[#c5a059]" /> CALL +91 98260 35259
+            <a href="mailto:antiquesuper8319@gmail.com" className="btn-outline-gold py-3.5 px-8">
+              <Mail className="w-4 h-4 text-[#c5a059]" /> EMAIL US
             </a>
           </div>
         </div>
@@ -136,7 +136,7 @@ export default function SellCoins({ onOpenEnquiry }) {
             Ready to Request a Coin Evaluation?
           </h2>
           <p className="text-sm text-[#a39e93] mb-8">
-            Speak directly with Antique Super Antique in Indore today.
+            Contact Antique Super Antique in Indore today via form or email.
           </p>
           <button onClick={onOpenEnquiry} className="btn-gold py-4 px-9 text-base">
             START AN ENQUIRY NOW

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, HelpCircle, Shield, AlertCircle, Phone, BookOpen, Sparkles } from 'lucide-react';
+import { ChevronDown, AlertCircle, Mail } from 'lucide-react';
 
 export default function CollectorGuide({ onOpenEnquiry }) {
   const [openFaq, setOpenFaq] = useState(0);
@@ -39,11 +39,11 @@ export default function CollectorGuide({ onOpenEnquiry }) {
     },
     {
       q: 'How can I enquire about a collection?',
-      a: 'You can fill out our online evaluation form, send photos via WhatsApp, or call our Indore gallery directly at +91 98260 35259 to arrange a personal consultation.',
+      a: 'You can fill out our online evaluation form, send photos via WhatsApp, or email our Indore gallery directly at antiquesuper8319@gmail.com to arrange a consultation.',
     },
     {
       q: 'Where are you located in Indore?',
-      a: 'Antique Super Antique is located in Indore, Madhya Pradesh – 452003, India. Consultations are arranged by phone or online enquiry.',
+      a: 'Antique Super Antique is located in Indore, Madhya Pradesh – 452003, India. Consultations are arranged by email or online enquiry.',
     },
   ];
 
@@ -116,14 +116,14 @@ export default function CollectorGuide({ onOpenEnquiry }) {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-serif font-bold text-white mb-4">Have a Question Not Answered Here?</h2>
           <p className="text-sm text-[#a39e93] mb-8">
-            Speak directly with Antique Super Antique in Indore for expert advice.
+            Contact Antique Super Antique in Indore for expert advice.
           </p>
           <div className="flex justify-center gap-4">
             <button onClick={onOpenEnquiry} className="btn-gold py-3.5 px-8">
               SUBMIT A QUESTION
             </button>
-            <a href="tel:+919826035259" className="btn-outline-gold py-3.5 px-8">
-              <Phone className="w-4 h-4 text-[#c5a059]" /> CALL +91 98260 35259
+            <a href="mailto:antiquesuper8319@gmail.com" className="btn-outline-gold py-3.5 px-8">
+              <Mail className="w-4 h-4 text-[#c5a059]" /> EMAIL US
             </a>
           </div>
         </div>

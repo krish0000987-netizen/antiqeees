@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HeroSlider from '../components/HeroSlider';
-import { ShieldCheck, Award, Eye, Coins, Compass, Clock, ArrowRight, HelpCircle, Phone, CheckCircle } from 'lucide-react';
+import { ShieldCheck, Award, Eye, Coins, ArrowRight } from 'lucide-react';
 
 export default function Home({ onOpenEnquiry, onOpenLightbox }) {
   const featuredCategories = [
@@ -245,7 +245,7 @@ export default function Home({ onOpenEnquiry, onOpenLightbox }) {
             <span className="text-4xl font-serif font-bold text-[#c5a059]/40 block mb-2">01</span>
             <h3 className="text-xl font-serif font-bold text-white mb-2">Share Details</h3>
             <p className="text-xs text-[#a39e93] leading-relaxed">
-              Contact us via call or enquiry form with photos and known origin details of your old coin or antique.
+              Contact us via email or enquiry form with photos and known origin details of your old coin or antique.
             </p>
           </div>
 
@@ -321,7 +321,7 @@ export default function Home({ onOpenEnquiry, onOpenLightbox }) {
         </div>
       </section>
 
-      {/* 7. Tasteful Testimonials Section (Placeholder structure per prompt guidelines) */}
+      {/* 7. Tasteful Testimonials Section */}
       <section className="py-20 border-t border-[#c5a059]/20">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <span className="text-xs uppercase tracking-widest text-[#c5a059] font-bold">Collector Reviews</span>
@@ -353,9 +353,9 @@ export default function Home({ onOpenEnquiry, onOpenLightbox }) {
             <button onClick={onOpenEnquiry} className="btn-gold py-4 px-9 text-base">
               REQUEST EVALUATION NOW
             </button>
-            <a href="tel:+919826035259" className="btn-outline-gold py-4 px-8 text-base">
-              <Phone className="w-4 h-4 text-[#c5a059]" /> CALL +91 98260 35259
-            </a>
+            <Link to="/contact" className="btn-outline-gold py-4 px-8 text-base">
+              CONTACT US NOW
+            </Link>
           </div>
         </div>
       </section>
