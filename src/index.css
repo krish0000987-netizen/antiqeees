@@ -1,4 +1,4 @@
-/* Antique Super Antique - Luxury Heritage Design System */
+@import "tailwindcss";
 
 :root {
   --bg-primary: #090a0f;
@@ -15,8 +15,6 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html {
@@ -62,7 +60,7 @@ h1, h2, h3, h4, .font-serif {
 
 /* Glassmorphism Cards */
 .glass-card {
-  background: rgba(18, 20, 29, 0.78);
+  background: rgba(18, 20, 29, 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--border-gold);
@@ -83,12 +81,6 @@ h1, h2, h3, h4, .font-serif {
   height: 1px;
   background: linear-gradient(90deg, transparent, rgba(197, 160, 89, 0.4), transparent);
   width: 100%;
-}
-
-.gold-divider-left {
-  height: 1px;
-  background: linear-gradient(90deg, #c5a059, transparent);
-  width: 120px;
 }
 
 /* Hero Ken Burns Zoom Animation */
@@ -167,20 +159,4 @@ h1, h2, h3, h4, .font-serif {
   border-color: #dfb76c;
   color: #fff;
   transform: translateY(-2px);
-}
-
-/* Utility Animations */
-.fade-in-up {
-  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
