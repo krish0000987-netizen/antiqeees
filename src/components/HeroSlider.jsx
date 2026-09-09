@@ -60,7 +60,7 @@ export default function HeroSlider({ onOpenEnquiry }) {
   };
 
   return (
-    <div className="relative w-full h-[88vh] min-h-[600px] max-h-[900px] bg-[#090a0f] overflow-hidden flex items-center justify-center">
+    <div className="relative w-full min-h-[540px] h-[82vh] max-h-[850px] bg-[#090a0f] overflow-hidden flex items-center justify-center">
       {/* Slides images with crossfade & Ken Burns */}
       {slides.map((slide, index) => (
         <div
@@ -76,57 +76,57 @@ export default function HeroSlider({ onOpenEnquiry }) {
           />
           {/* Dark luxury gradient overlays */}
           <div className="absolute inset-0 bg-gradient-to-t from-[#090a0f] via-[#090a0f]/60 to-black/40" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-[#090a0f]/40 to-[#090a0f]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-[#090a0f]/50 to-[#090a0f]" />
         </div>
       ))}
 
-      {/* Hero Content */}
-      <div className="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center">
+      {/* Hero Content Box */}
+      <div className="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center py-10">
         {/* Tag Pill */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#181b26]/90 border border-[#c5a059]/40 backdrop-blur-md text-[#dfb76c] text-xs sm:text-sm font-medium tracking-widest uppercase mb-6 shadow-xl animate-fade-in-up">
-          <Sparkles className="w-3.5 h-3.5 text-[#c5a059]" />
-          <span>{slides[currentSlide].tag}</span>
+        <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#181b26]/90 border border-[#c5a059]/40 backdrop-blur-md text-[#dfb76c] text-[11px] sm:text-xs font-medium tracking-widest uppercase mb-4 shadow-xl">
+          <Sparkles className="w-3 h-3 text-[#c5a059] shrink-0" />
+          <span className="truncate max-w-[240px] sm:max-w-none">{slides[currentSlide].tag}</span>
         </div>
 
         {/* Headline */}
-        <h1 className="text-4xl sm:text-6xl md:text-7xl font-serif font-bold text-white tracking-tight leading-[1.1] mb-6 drop-shadow-2xl">
+        <h1 className="text-3xl sm:text-5xl md:text-7xl font-serif font-bold text-white tracking-tight leading-[1.15] mb-4 sm:mb-6 drop-shadow-2xl">
           {slides[currentSlide].title}
         </h1>
 
         {/* Subheadline */}
-        <p className="text-base sm:text-xl md:text-2xl text-[#e8e2d5]/90 max-w-3xl font-light mb-10 leading-relaxed drop-shadow-md">
+        <p className="text-xs sm:text-lg md:text-2xl text-[#e8e2d5]/90 max-w-2xl mx-auto font-light mb-8 sm:mb-10 leading-relaxed drop-shadow-md px-2">
           {slides[currentSlide].subtitle}
         </p>
 
-        {/* Action Buttons */}
-        <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
+        {/* Action Buttons Container */}
+        <div className="w-full max-w-md sm:max-w-none flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 px-2">
           <button
             onClick={onOpenEnquiry}
-            className="btn-gold text-sm sm:text-base py-3.5 px-8"
+            className="btn-gold text-xs sm:text-sm py-3 px-6 w-full sm:w-auto justify-center"
           >
             SELL YOUR ANTIQUE <ArrowRight className="w-4 h-4" />
           </button>
 
           <Link
             to="/gallery"
-            className="btn-outline-gold text-sm sm:text-base py-3.5 px-8"
+            className="btn-outline-gold text-xs sm:text-sm py-3 px-6 w-full sm:w-auto justify-center"
           >
             EXPLORE COLLECTION
           </Link>
 
           <a
             href="tel:+919826035259"
-            className="flex items-center gap-2.5 px-6 py-3.5 rounded text-sm sm:text-base font-semibold text-white bg-white/10 hover:bg-white/20 border border-white/20 backdrop-blur-md transition-all"
+            className="w-full sm:w-auto justify-center flex items-center gap-2 px-5 py-3 rounded text-xs sm:text-sm font-semibold text-white bg-white/10 hover:bg-white/20 border border-white/20 backdrop-blur-md transition-all"
           >
-            <Phone className="w-4 h-4 text-[#dfb76c]" /> CALL +91 98260 35259
+            <Phone className="w-3.5 h-3.5 text-[#dfb76c]" /> CALL +91 98260 35259
           </a>
         </div>
       </div>
 
-      {/* Manual Slide Arrows */}
+      {/* Desktop Manual Slide Arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 z-30 p-3 rounded-full bg-[#090a0f]/60 hover:bg-[#c5a059] text-[#dfb76c] hover:text-black border border-[#c5a059]/30 transition-all duration-300 backdrop-blur-sm"
+        className="hidden md:flex absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 z-30 p-3 rounded-full bg-[#090a0f]/60 hover:bg-[#c5a059] text-[#dfb76c] hover:text-black border border-[#c5a059]/30 transition-all duration-300 backdrop-blur-sm"
         aria-label="Previous Slide"
       >
         <ChevronLeft className="w-6 h-6" />
@@ -134,22 +134,22 @@ export default function HeroSlider({ onOpenEnquiry }) {
 
       <button
         onClick={nextSlide}
-        className="absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 z-30 p-3 rounded-full bg-[#090a0f]/60 hover:bg-[#c5a059] text-[#dfb76c] hover:text-black border border-[#c5a059]/30 transition-all duration-300 backdrop-blur-sm"
+        className="hidden md:flex absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 z-30 p-3 rounded-full bg-[#090a0f]/60 hover:bg-[#c5a059] text-[#dfb76c] hover:text-black border border-[#c5a059]/30 transition-all duration-300 backdrop-blur-sm"
         aria-label="Next Slide"
       >
         <ChevronRight className="w-6 h-6" />
       </button>
 
       {/* Slide Indicators / Dots */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 flex items-center gap-3 bg-black/40 backdrop-blur-md py-2 px-4 rounded-full border border-[#c5a059]/20">
+      <div className="absolute bottom-4 sm:bottom-8 left-1/2 -translate-x-1/2 z-30 flex items-center gap-2 bg-black/50 backdrop-blur-md py-1.5 px-3 rounded-full border border-[#c5a059]/20">
         {slides.map((_, idx) => (
           <button
             key={idx}
             onClick={() => setCurrentSlide(idx)}
-            className={`h-2 rounded-full transition-all duration-500 ${
+            className={`h-1.5 sm:h-2 rounded-full transition-all duration-500 ${
               idx === currentSlide
-                ? 'w-8 bg-gradient-to-r from-[#dfb76c] to-[#c5a059]'
-                : 'w-2 bg-white/30 hover:bg-white/60'
+                ? 'w-6 sm:w-8 bg-gradient-to-r from-[#dfb76c] to-[#c5a059]'
+                : 'w-1.5 sm:w-2 bg-white/30 hover:bg-white/60'
             }`}
             aria-label={`Go to slide ${idx + 1}`}
           />
