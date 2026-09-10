@@ -58,10 +58,10 @@ export default function About({ onOpenEnquiry }) {
           <div>
             <span className="text-xs uppercase tracking-widest text-[#c5a059] font-bold">Our Story & Heritage</span>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white mt-2 mb-6">
-              Rooted in Indore, Inspiring Collectors Nationwide
+              Rooted in Mumbai, Inspiring Collectors Nationwide
             </h2>
             <p className="text-sm text-[#a39e93] leading-relaxed mb-4">
-              Based in the historic city of Indore, Madhya Pradesh, <strong className="text-white">Antique Super Antique</strong> was established with a singular vision: to create a trusted, sophisticated platform for old coin collectors, history enthusiasts, and families possessing inherited antiquities.
+              Based in the historic city of Mumbai, Maharashtra, <strong className="text-white">Antique Super Antique</strong> was established with a singular vision: to create a trusted, sophisticated platform for old coin collectors, history enthusiasts, and families possessing inherited antiquities.
             </p>
             <p className="text-sm text-[#a39e93] leading-relaxed mb-4">
               We believe that every antique object and rare coin is a tangible portal to the past — carrying the trade secrets of ancient empires, royal mints, and forgotten eras.
@@ -162,7 +162,7 @@ export default function About({ onOpenEnquiry }) {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-4xl font-serif font-bold text-white mb-4">Have a piece of history?</h2>
           <p className="text-sm text-[#a39e93] mb-8">
-            Contact Antique Super Antique in Indore today for confidential advice, coin evaluations, or purchasing inquiries.
+            Contact Antique Super Antique in Mumbai today for confidential advice, coin evaluations, or purchasing inquiries.
           </p>
           <div className="flex justify-center gap-4">
             <Link to="/contact" className="btn-gold py-3.5 px-8">

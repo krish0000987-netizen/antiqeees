@@ -35,15 +35,15 @@ export default function CollectorGuide({ onOpenEnquiry }) {
     },
     {
       q: 'Do you buy antique objects besides coins?',
-      a: 'Yes! In addition to rare coins, Antique Super Antique evaluates and purchases royal Indian brassware, vintage pocket watches, traditional silver ornaments, and historical curiosities in Indore.',
+      a: 'Yes! In addition to rare coins, Antique Super Antique evaluates and purchases royal Indian brassware, vintage pocket watches, traditional silver ornaments, and historical curiosities in Mumbai.',
     },
     {
       q: 'How can I enquire about a collection?',
-      a: 'You can fill out our online evaluation form, send photos via WhatsApp, or email our Indore gallery directly at antiquesuper8319@gmail.com to arrange a consultation.',
+      a: 'You can fill out our online evaluation form, send photos via WhatsApp, or email our Mumbai gallery directly at antiquesuper8319@gmail.com to arrange a consultation.',
     },
     {
-      q: 'Where are you located in Indore?',
-      a: 'Antique Super Antique is located in Indore, Madhya Pradesh – 452003, India. Consultations are arranged by email or online enquiry.',
+      q: 'Where are you located in Mumbai?',
+      a: 'Antique Super Antique is located in Mumbai, Maharashtra – 400001, India. Consultations are arranged by email or online enquiry.',
     },
   ];
 
@@ -116,7 +116,7 @@ export default function CollectorGuide({ onOpenEnquiry }) {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-serif font-bold text-white mb-4">Have a Question Not Answered Here?</h2>
           <p className="text-sm text-[#a39e93] mb-8">
-            Contact Antique Super Antique in Indore for expert advice.
+            Contact Antique Super Antique in Mumbai for expert advice.
           </p>
           <div className="flex justify-center gap-4">
             <button onClick={onOpenEnquiry} className="btn-gold py-3.5 px-8">

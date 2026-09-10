@@ -129,7 +129,7 @@ export default function Home({ onOpenEnquiry, onOpenLightbox }) {
               </div>
               <h3 className="text-xl font-serif font-bold text-white mb-2">Transparent Process</h3>
               <p className="text-sm text-[#a39e93] leading-relaxed">
-                Direct, straightforward enquiry experience for both buyers and sellers across Madhya Pradesh.
+                Direct, straightforward enquiry experience for both buyers and sellers across Mumbai and Maharashtra.
               </p>
             </div>
 
@@ -167,7 +167,7 @@ export default function Home({ onOpenEnquiry, onOpenLightbox }) {
               <span className="text-gold-gradient">Stories Worth Preserving.</span>
             </h2>
             <p className="text-base text-[#a39e93] leading-relaxed mb-6 font-light">
-              Based in Indore, Madhya Pradesh, <strong className="text-white">Antique Super Antique</strong> is a premier destination for rare old coins, historical currency, and royal heritage objects. We bridge the gap between historic discovery and passionate preservation.
+              Based in Mumbai, Maharashtra, <strong className="text-white">Antique Super Antique</strong> is a premier destination for rare old coins, historical currency, and royal heritage objects. We bridge the gap between historic discovery and passionate preservation.
             </p>
             <p className="text-sm text-[#a39e93] leading-relaxed mb-8">
               Whether you have inherited a family heirloom coin set, wish to sell rare silver rupees, or are expanding your private numismatic gallery, our team offers professional examination and evaluation.
@@ -329,7 +329,7 @@ export default function Home({ onOpenEnquiry, onOpenLightbox }) {
 
           <div className="glass-card p-8 rounded-lg border border-[#c5a059]/30 text-center">
             <p className="text-sm sm:text-base text-[#e8e2d5] italic leading-relaxed mb-4">
-              “A professional client testimonial will be displayed here as real customer reviews are gathered during ongoing business transactions in Indore.”
+              “A professional client testimonial will be displayed here as real customer reviews are gathered during ongoing business transactions in Mumbai.”
             </p>
             <span className="text-xs text-[#c5a059] uppercase tracking-wider font-semibold">
               — Verified Client Testimonial Placeholder —
@@ -346,7 +346,7 @@ export default function Home({ onOpenEnquiry, onOpenLightbox }) {
             Let’s Talk About Your Piece of History.
           </h2>
           <p className="text-base sm:text-xl text-[#a39e93] max-w-2xl mx-auto mb-10 font-light">
-            Contact Antique Super Antique in Indore today for confidential evaluation, coin buying, or collection consultation.
+            Contact Antique Super Antique in Mumbai today for confidential evaluation, coin buying, or collection consultation.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">

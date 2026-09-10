@@ -17,7 +17,7 @@ export default function Logo({ className = "h-10 sm:h-12" }) {
           ANTIQUE
         </span>
         <span className="text-[9px] sm:text-[10px] uppercase tracking-[0.28em] text-[#c5a059] font-medium leading-none">
-          SUPER ANTIQUE • INDORE
+          SUPER ANTIQUE • MUMBAI
         </span>
       </div>
     </Link>

@@ -36,7 +36,7 @@ export default function AntiqueBuySell({ onOpenEnquiry }) {
             Discover. Evaluate. <span className="text-gold-gradient">Exchange. Preserve.</span>
           </h1>
           <p className="text-base sm:text-xl text-[#a39e93] max-w-3xl mx-auto font-light leading-relaxed">
-            Connecting heritage antiquities with discerning collectors and sellers across Madhya Pradesh.
+            Connecting heritage antiquities with discerning collectors and sellers across Mumbai and Maharashtra.
           </p>
         </div>
       </section>
@@ -127,7 +127,7 @@ export default function AntiqueBuySell({ onOpenEnquiry }) {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-4xl font-serif font-bold text-white mb-4">Have Questions About Buying or Selling?</h2>
           <p className="text-sm text-[#a39e93] mb-8">
-            Email our Indore gallery team at antiquesuper8319@gmail.com or submit an online request.
+            Email our Mumbai gallery team at antiquesuper8319@gmail.com or submit an online request.
           </p>
           <div className="flex justify-center gap-4">
             <a href="mailto:antiquesuper8319@gmail.com" className="btn-gold py-3.5 px-8">

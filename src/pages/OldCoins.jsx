@@ -80,7 +80,7 @@ export default function OldCoins({ onOpenEnquiry, onOpenLightbox }) {
             Coins That Carry <span className="text-gold-gradient">Centuries of History.</span>
           </h1>
           <p className="text-base sm:text-xl text-[#a39e93] max-w-3xl mx-auto font-light leading-relaxed">
-            Explore ancient Indian silver, Mughal mohurs, Victorian rupees, and rare Princely State coinages preserved in our Indore gallery.
+            Explore ancient Indian silver, Mughal mohurs, Victorian rupees, and rare Princely State coinages preserved in our Mumbai gallery.
           </p>
         </div>
       </section>
@@ -179,7 +179,7 @@ export default function OldCoins({ onOpenEnquiry, onOpenLightbox }) {
             Want to know more about your coin?
           </h2>
           <p className="text-sm text-[#a39e93] mb-8">
-            Submit details or photos of your old coin for examination by our Indore numismatic team.
+            Submit details or photos of your old coin for examination by our Mumbai numismatic team.
           </p>
           <button onClick={onOpenEnquiry} className="btn-gold py-4 px-9 text-base">
             REQUEST EVALUATION NOW

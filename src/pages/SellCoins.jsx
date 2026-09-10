@@ -36,7 +36,7 @@ export default function SellCoins({ onOpenEnquiry }) {
             <span className="text-gold-gradient">Its Next Chapter.</span>
           </h1>
           <p className="text-base sm:text-xl text-[#a39e93] max-w-3xl mx-auto font-light leading-relaxed">
-            Professional evaluation and confidential coin acquisition guidance for private sellers in Indore and across Madhya Pradesh.
+            Professional evaluation and confidential coin acquisition guidance for private sellers in Mumbai and across Maharashtra.
           </p>
 
           <div className="mt-8 flex justify-center gap-4">
@@ -136,7 +136,7 @@ export default function SellCoins({ onOpenEnquiry }) {
             Ready to Request a Coin Evaluation?
           </h2>
           <p className="text-sm text-[#a39e93] mb-8">
-            Contact Antique Super Antique in Indore today via form or email.
+            Contact Antique Super Antique in Mumbai today via form or email.
           </p>
           <button onClick={onOpenEnquiry} className="btn-gold py-4 px-9 text-base">
             START AN ENQUIRY NOW

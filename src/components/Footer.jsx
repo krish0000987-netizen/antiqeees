@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Logo />
             <p className="text-xs text-[#a39e93] leading-relaxed pt-2">
-              Indore’s premier heritage gallery and numismatic valuation vault. Dedicated to the discovery, evaluation, preservation, and exchange of rare historical coins, ancient currency, and royal Indian antique treasures.
+              Mumbai’s premier heritage gallery and numismatic valuation vault. Dedicated to the discovery, evaluation, preservation, and exchange of rare historical coins, ancient currency, and royal Indian antique treasures.
             </p>
             <div className="pt-2 text-xs font-semibold text-[#dfb76c] flex items-center gap-2">
               <Shield className="w-4 h-4 text-[#c5a059]" />
@@ -99,7 +99,7 @@ export default function Footer() {
             <div className="space-y-3 text-xs">
               <p className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#c5a059] shrink-0 mt-0.5" />
-                <span>Indore, Madhya Pradesh – 452003, India</span>
+                <span>Mumbai, Maharashtra – 400001, India</span>
               </p>
               <p className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#c5a059] shrink-0" />

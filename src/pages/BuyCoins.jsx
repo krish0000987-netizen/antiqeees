@@ -29,7 +29,7 @@ export default function BuyCoins({ onOpenEnquiry }) {
             Looking to <span className="text-gold-gradient">Sell Your Old Coins?</span>
           </h1>
           <p className="text-base sm:text-xl text-[#a39e93] max-w-3xl mx-auto font-light leading-relaxed">
-            Transparent, professional evaluation for ancient coins, British India rupees, and inherited coin collections in Indore.
+            Transparent, professional evaluation for ancient coins, British India rupees, and inherited coin collections in Mumbai.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">

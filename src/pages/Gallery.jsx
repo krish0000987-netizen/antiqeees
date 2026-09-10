@@ -202,7 +202,7 @@ export default function Gallery({ onOpenEnquiry, onOpenLightbox }) {
             Interested in Acquiring or Evaluating a Gallery Item?
           </h2>
           <p className="text-sm text-[#a39e93] mb-8">
-            Contact Antique Super Antique in Indore today for acquisition details or coin valuations.
+            Contact Antique Super Antique in Mumbai today for acquisition details or coin valuations.
           </p>
           <button onClick={onOpenEnquiry} className="btn-gold py-4 px-9 text-base">
             REQUEST ITEM INQUIRY

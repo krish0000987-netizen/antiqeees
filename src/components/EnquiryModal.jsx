@@ -90,7 +90,7 @@ export default function EnquiryModal({ isOpen, onClose }) {
               </div>
               <h4 className="text-2xl sm:text-3xl font-serif text-white mb-2">Enquiry Received</h4>
               <p className="text-[#a39e93] max-w-md mx-auto mb-6 text-xs sm:text-sm leading-relaxed">
-                Thank you, <strong className="text-white">{formData.name}</strong>. Our evaluation team in Indore will review your item details and reach back out promptly.
+                Thank you, <strong className="text-white">{formData.name}</strong>. Our evaluation team in Mumbai will review your item details and reach back out promptly.
               </p>
               <button onClick={resetForm} className="btn-gold w-full sm:w-auto justify-center">
                 CLOSE WINDOW

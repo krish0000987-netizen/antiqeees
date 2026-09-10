@@ -75,7 +75,7 @@ export default function AntiqueItems({ onOpenEnquiry, onOpenLightbox }) {
             “From forgotten trunks to family heirlooms, every antique has a story waiting to be rediscovered.”
           </p>
           <span className="text-xs text-[#c5a059] uppercase tracking-widest font-bold mt-4 block">
-            — Antique Super Antique Indore —
+            — Antique Super Antique Mumbai —
           </span>
         </div>
       </section>
@@ -129,7 +129,7 @@ export default function AntiqueItems({ onOpenEnquiry, onOpenLightbox }) {
             Possess an Antique Artifact You Wish to Sell?
           </h2>
           <p className="text-sm text-[#a39e93] mb-8">
-            Our team in Indore evaluates vintage watches, royal brassware, silver ornaments, and curiosities with confidentiality.
+            Our team in Mumbai evaluates vintage watches, royal brassware, silver ornaments, and curiosities with confidentiality.
           </p>
           <button onClick={onOpenEnquiry} className="btn-gold py-4 px-9 text-base">
             SELL YOUR ANTIQUE

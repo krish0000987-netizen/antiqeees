@@ -52,10 +52,10 @@ export default function Navbar({ onOpenEnquiry }) {
         <div className="max-w-7xl mx-auto w-full flex flex-col sm:flex-row items-center justify-between gap-1.5 sm:gap-2 text-center sm:text-left">
           <div className="flex items-center justify-center gap-1.5">
             <ShieldCheck className="w-3.5 h-3.5 text-[#c5a059] shrink-0" />
-            <span className="truncate max-w-[280px] sm:max-w-none">Indore’s Premier Heritage Vault & Coin Numismatic Gallery</span>
+            <span className="truncate max-w-[280px] sm:max-w-none">Mumbai’s Premier Heritage Vault & Coin Numismatic Gallery</span>
           </div>
           <div className="flex items-center gap-3 text-[10px] sm:text-[11px]">
-            <span className="hidden sm:inline">Indore, MP - 452003</span>
+            <span className="hidden sm:inline">Mumbai, Maharashtra – 400001</span>
             <span className="text-[#c5a059] hidden sm:inline">•</span>
             <a href="mailto:antiquesuper8319@gmail.com" className="text-[#dfb76c] hover:underline flex items-center gap-1 font-semibold">
               <Mail className="w-3 h-3 text-[#c5a059]" /> antiquesuper8319@gmail.com

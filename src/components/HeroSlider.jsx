@@ -9,7 +9,7 @@ export default function HeroSlider({ onOpenEnquiry }) {
       image: '/images/hero_ancient_coins.jpg',
       tag: 'Ancient Numismatic Treasures',
       title: 'Every Coin Holds a Story.',
-      subtitle: 'Discover, Buy & Sell Old Coins and Rare Antique Treasures in Indore.',
+      subtitle: 'Discover, Buy & Sell Old Coins and Rare Antique Treasures in Mumbai.',
     },
     {
       id: 2,

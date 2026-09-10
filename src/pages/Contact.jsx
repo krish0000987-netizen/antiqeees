@@ -28,7 +28,7 @@ export default function Contact({ onOpenEnquiry }) {
             Let’s Talk About Your <span className="text-gold-gradient">Piece of History.</span>
           </h1>
           <p className="text-base sm:text-xl text-[#a39e93] max-w-3xl mx-auto font-light leading-relaxed">
-            Contact Antique Super Antique in Indore for coin evaluation, antique acquisition, or collection consultation.
+            Contact Antique Super Antique in Mumbai for coin evaluation, antique acquisition, or collection consultation.
           </p>
         </div>
       </section>
@@ -51,7 +51,7 @@ export default function Contact({ onOpenEnquiry }) {
                   </div>
                   <div>
                     <h4 className="text-xs uppercase tracking-wider font-semibold text-[#a39e93]">Location</h4>
-                    <p className="text-white font-medium mt-1">Indore, Madhya Pradesh – 452003, India</p>
+                    <p className="text-white font-medium mt-1">Mumbai, Maharashtra – 400001, India</p>
                   </div>
                 </div>
 
@@ -119,7 +119,7 @@ export default function Contact({ onOpenEnquiry }) {
                 <CheckCircle2 className="w-14 h-14 text-emerald-400 mx-auto mb-4" />
                 <h4 className="text-2xl font-serif text-white mb-2">Enquiry Sent Successfully</h4>
                 <p className="text-sm text-[#a39e93] max-w-md mx-auto mb-6">
-                  Our team in Indore will review your message and contact you back.
+                  Our team in Mumbai will review your message and contact you back.
                 </p>
                 <button onClick={() => setSubmitted(false)} className="btn-gold">
                   SEND ANOTHER MESSAGE
@@ -224,18 +224,18 @@ export default function Contact({ onOpenEnquiry }) {
         </div>
       </section>
 
-      {/* Embedded Google Map Section Centered on Indore 452003 */}
+      {/* Embedded Google Map Section Centered on Mumbai */}
       <section className="py-12 bg-[#0c0e15] border-t border-[#c5a059]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-8">
           <span className="text-xs uppercase tracking-widest text-[#c5a059] font-bold">Interactive Location</span>
-          <h2 className="text-3xl font-serif font-bold text-white mt-1">Indore, MP - 452003</h2>
+          <h2 className="text-3xl font-serif font-bold text-white mt-1">Mumbai, Maharashtra – 400001</h2>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-lg overflow-hidden border border-[#c5a059]/30 h-[380px] gold-glow">
             <iframe
-              title="Antique Super Antique Indore Location Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58883.82914169752!2d75.8340156!3d22.7195687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh%20452003!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              title="Antique Super Antique Mumbai Location Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.1160982357!2d72.74109995709657!3d19.08219783958221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg) contrast(1.2)' }}
